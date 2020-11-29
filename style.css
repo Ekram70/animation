@@ -23,6 +23,7 @@ body {
   width: 200px;
   position: absolute;
   background-color: #292d32;
+  border-radius: 50%;
   animation-name: drop;
   animation-duration: 3s;
   animation-iteration-count: infinite;
