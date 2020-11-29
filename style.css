@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.parent {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: #f6cf54;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.child {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: #292d32;
+  animation-name: drop;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.47, 0.46, 0.47, 0.46);
+}
+
+@keyframes drop {
+  0% {
+    left: 200px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 200px;
+  }
+  50% {
+    left: 200px;
+    top: 400px;
+  }
+  75% {
+    left: 400px;
+    top: 200px;
+  }
+  100% {
+    left: 200px;
+    top: 0px;
+  }
+}

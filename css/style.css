@@ -1,0 +1,16 @@
+div {
+  background-color: crimson;
+  font-size: 100px;
+  padding: 50px;
+  margin: 10px;
+  height: 20px;
+}
+
+span {
+  background-color: darkgreen;
+  font-size: 100px;
+  padding: 50px;
+  margin: 10px;
+  height: 100px;
+  display: inline-block;
+}
